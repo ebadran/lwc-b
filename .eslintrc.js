@@ -801,7 +801,7 @@ module.exports = {
 		}],
 
 		'jsdoc/check-indentation': 'error',
-		'jsdoc/newline-after-description': 'error',
+		'jsdoc/newline-after-description': 'off',
 
 		'import/no-default-export': 'error',
 

@@ -105,7 +105,8 @@ export class PaneSeparator implements IDestroyable {
 	}
 
 	private _updateBorderColor(): void {
-		this._cell.style.background = this._chartWidget.options().timeScale.borderColor;
+		// this._cell.style.background = this._chartWidget.options().timeScale.borderColor;
+		this._cell.style.background = '#D3D3D3';
 	}
 
 	private _mouseOverEvent(event: TouchMouseEvent): void {
